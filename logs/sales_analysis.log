@@ -33,3 +33,9 @@
 2026-05-27T18:02:42.138278-0300 | INFO | Logger configurado com sucesso.
 2026-05-27T18:03:34.058080-0300 | INFO | Logger configurado com sucesso.
 2026-05-27T18:04:07.185943-0300 | INFO | Logger configurado com sucesso.
+2026-05-27T18:04:51.749240-0300 | INFO | Logger configurado com sucesso.
+2026-05-27T18:04:51.935891-0300 | INFO | Iniciando leitura do arquivo: C:\workspace\note\sales-analysis\data\sales_data.csv
+2026-05-27T18:04:51.967144-0300 | INFO | Arquivo carregado com sucesso. Linhas: 1000 | Colunas: 14
+2026-05-27T18:51:41.211635-0300 | INFO | Logger configurado com sucesso.
+2026-05-27T18:51:41.437308-0300 | INFO | Iniciando leitura do arquivo: C:\workspace\note\sales-analysis\data\sales_data.csv
+2026-05-27T18:51:42.032293-0300 | INFO | Arquivo carregado com sucesso. Linhas: 1000 | Colunas: 14
