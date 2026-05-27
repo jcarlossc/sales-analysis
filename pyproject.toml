@@ -15,7 +15,8 @@ dependencies = [
     "ipykernel (>=7.2.0,<8.0.0)",
     "import-ipynb (>=0.2,<0.3)",
     "pyprojroot (>=0.3.0,<0.4.0)",
-    "pyyaml (>=6.0.3,<7.0.0)"
+    "pyyaml (>=6.0.3,<7.0.0)",
+    "loguru (>=0.7.3,<0.8.0)"
 ]
 
 [tool.poetry]
