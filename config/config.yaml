@@ -1,0 +1,34 @@
+project:
+  name: sales_analysis
+  version: 1.0.0
+
+paths:
+  raw_data: data/
+  reports: reports/
+  logs: logs/
+
+files:
+  sales_dataset: sales.csv
+
+logging:
+  filename: sales_analysis.log
+  level: INFO
+  format:  "{time} | {level} | {message}"
+
+csv:
+  separator: ","
+  encoding: "utf-8"
+
+analysis:
+  currency: "BRL"
+  confidence_level: 0.95
+
+visualization:
+  figsize:
+    width: 12
+    height: 6
+
+business_rules:
+  discount_limit: 0.30
+  minimum_profit_margin: 0.10
+
