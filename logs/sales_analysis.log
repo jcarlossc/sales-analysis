@@ -57,3 +57,8 @@
 2026-05-27T20:14:07.953818-0300 | INFO | Logger configurado com sucesso.
 2026-05-27T21:07:52.157461-0300 | INFO | Logger configurado com sucesso.
 2026-05-27T21:09:28.492470-0300 | INFO | Logger configurado com sucesso.
+2026-05-27T21:10:05.246782-0300 | INFO | Logger configurado com sucesso.
+2026-05-27T21:10:07.497486-0300 | INFO | Iniciando leitura do arquivo: C:\workspace\note\sales-analysis\data\sales_data.csv
+2026-05-27T21:10:07.598719-0300 | INFO | Arquivo carregado com sucesso. Linhas: 1000 | Colunas: 14
+2026-05-27T21:10:08.069642-0300 | INFO | Início do teste de qualidade
+2026-05-27T21:10:08.152958-0300 | INFO | Término do teste de qualidade
