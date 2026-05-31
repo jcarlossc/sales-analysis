@@ -33,19 +33,25 @@ sales-analysis/
 │
 ├── config/
 │   └── config.yaml
-│
 ├── data/
 │   └── sales_data.csv
-│
 ├── logs/
 │   └── sales_analysis.log
-│
 ├── reports/
 │   └── sales_pipeline.html
-|
 ├── images/
-│   ├── 
-│   └── 
+│   ├── sales_01.PNG
+│   ├── sales_02.PNG
+│   ├── sales_03.PNG
+│   ├── sales_04.PNG
+│   ├── sales_05.PNG
+│   ├── sales_06.PNG
+│   ├── sales_07.PNG
+│   ├── sales_08.PNG
+│   ├── sales_09.PNG
+│   ├── sales_10.PNG
+│   ├── sales_11.PNG
+│   └── sales_12.PNG
 │
 ├── src/
 │   └── sales_analysis/
@@ -59,15 +65,17 @@ sales-analysis/
 │       ├── tables/
 │       |     ├── table_kpis_list.ipynb
 │       │     └── table_progressive_discounts.ipynb
-│       └── utils/
-│            ├──  csv_read/
-│            │      └── csv_load.ipynb
-│            ├──  loggers/
-│            │      └── logger.ipynb
-│            ├──  quality/
-│            │      └── quality_test.ipynb
-│            └──  settings/
-│                   └── quality_test.ipynb
+│       ├── utils/
+│       │     ├── csv_read/
+│       │     │      └── csv_load.ipynb
+│       │     ├── loggers/
+│       │     │      └── logger.ipynb
+│       │     ├── quality/
+│       │     │      └── quality_test.ipynb
+│       │     └── settings/
+│       │            └── quality_test.ipynb
+│       │
+│       └── sales_pipeline.ipynb
 ├── .gitignore
 ├── LICENSE
 ├── pyproject.toml
