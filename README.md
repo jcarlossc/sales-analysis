@@ -16,6 +16,24 @@ O projeto foi desenvolvido utilizando notebooks Jupyter, modularização em Pyth
 </div>
 
 ---
+## Imagens do Relatório
+
+<table>
+  <tr>
+    <td><img src="https://github.com/jcarlossc/sales-analysis/blob/main/images/sales_01.PNG" alt="Imagem Relatório" width="200"/> </td>
+    <td><img src="https://github.com/jcarlossc/sales-analysis/blob/main/images/sales_02.PNG" alt="Imagem Relatório" width="200"/> </td>
+    <td><img src="https://github.com/jcarlossc/sales-analysis/blob/main/images/sales_03.PNG" alt="Imagem Relatório" width="200"/> </td>
+    <td><img src="https://github.com/jcarlossc/sales-analysis/blob/main/images/sales_04.PNG" alt="Imagem Relatório" width="200"/> </td>
+    <td><img src="https://github.com/jcarlossc/sales-analysis/blob/main/images/sales_05.PNG" alt="Imagem Relatório" width="200"/> </td>
+    <td><img src="https://github.com/jcarlossc/sales-analysis/blob/main/images/sales_06.PNG" alt="Imagem Relatório" width="200"/> </td>
+    <td><img src="https://github.com/jcarlossc/sales-analysis/blob/main/images/sales_07.PNG" alt="Imagem Relatório" width="200"/> </td>
+    <td><img src="https://github.com/jcarlossc/sales-analysis/blob/main/images/sales_08.PNG" alt="Imagem Relatório" width="200"/> </td>
+    <td><img src="https://github.com/jcarlossc/sales-analysis/blob/main/images/sales_09.PNG" alt="Imagem Relatório" width="200"/> </td>
+    <td><img src="https://github.com/jcarlossc/sales-analysis/blob/main/images/sales_10.PNG" alt="Imagem Relatório" width="200"/> </td>
+    <td><img src="https://github.com/jcarlossc/sales-analysis/blob/main/images/sales_11.PNG" alt="Imagem Relatório" width="200"/> </td>
+    <td><img src="https://github.com/jcarlossc/sales-analysis/blob/main/images/sales_12.PNG" alt="Imagem Relatório" width="200"/> </td>
+  </tr>
+</table>
 
 ## Objetivos
 
@@ -101,6 +119,20 @@ O projeto possui logging estruturado com rastreamento completo da execução.
 2026-05-30T15:49:30.902859-0300 | INFO | Iniciando cálculos agregados
 ```
 
+## Relatórios
+
+O projeto gera:
+
+* ✅ Notebooks analíticos
+* ✅ Gráficos
+* ✅ Tabelas financeiras
+* ✅ Relatório exportado em html
+
+Exportar notebook em html no diretório reports/:
+```
+poetry run jupyter nbconvert --to html src/sales_analysis/sales_pipeline.ipynb --output-dir reports
+```
+
 ## Testes
 Executa testes
 ```
@@ -148,6 +180,46 @@ Learn more about nbmake at https://github.com/treebeardtech/nbmake
 
 =========================================== 12 passed in 366.97s (0:06:06) ============================================
 ```
+
+## Fonte dos dados
+A base utilizada neste estudo é o conjunto sales dataset, disponibilizado por VINOTH KANNA na plataforma Kaggle. Características da base:
+
+* 1.000 registros de vendas
+* Período entre janeiro de 2023 e janeiro de 2024
+* Comparação entre cenários com e sem desconto;
+* Variáveis de preço, custo, desconto, categoria, região, canal e cliente
+* Endereço: https://www.kaggle.com/datasets/vinothkannaece/sales-dataset
+
+## Mode de Utilização
+
+1. Com a linguagem Python instalada: <a href="https://www.python.org/downloads/" target="_blank">https://www.python.org/downloads/</a>
+2. Instale o pipx: 
+```
+pip install pipx
+```
+3. Em seguida:
+```
+pipx ensurepath
+```
+4. E, por fim:
+```
+pipx install poetry
+```
+5. Clone o repositório e acesse o diretório
+```
+git clone https://github.com/jcarlossc/salespipeline.git
+cd salespipeline
+```
+6. Instalação das dependências:
+```
+poetry install
+```
+7. Para executar o projeto:
+```
+poetry run jupyter notebook
+```
+8. Com o último comando, o jupyter notebook abrirá no navegador.
+
 
 ## Licença
 Este projeto está licenciado sob MIT License.
