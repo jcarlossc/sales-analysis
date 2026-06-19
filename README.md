@@ -214,12 +214,11 @@ cd salespipeline
 ```
 poetry install
 ```
-7. Para executar o projeto:
+7. O jupyter notebook abrirá no navegador:
 ```
 poetry run jupyter notebook
 ```
-8. Com o último comando, o jupyter notebook abrirá no navegador.
-
+8. O notebook sales_pipeline.ipynb executa o projeto (sales-analysis/src/sales_analysis/sales_pipeline.ipynb).
 
 ## Licença
 Este projeto está licenciado sob MIT License.
